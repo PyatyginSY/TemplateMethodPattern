@@ -14,7 +14,9 @@ namespace TemplateMethodPattern
             Console.WriteLine("Create transformer!\n");
         }
 
-        protected abstract void CreateWindingTapVoltage();
+        protected virtual void CreateWindingTapVoltage()
+        { 
+        }
 
         protected abstract void CreateTank();
 

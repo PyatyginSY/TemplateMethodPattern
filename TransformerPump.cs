@@ -18,9 +18,5 @@ namespace TemplateMethodPattern
         {
             Console.WriteLine("Create winding low voltage for transformer pump");
         }
-
-        protected override void CreateWindingTapVoltage()
-        {
-        }
     }
 }
